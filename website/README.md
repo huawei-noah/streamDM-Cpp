@@ -1,13 +1,34 @@
-Grayscale Jekyll theme
-=========================
+# smartDM Website and Documentation
+This is the source for the streamDM website and documentation. It is statically generated using [jekyll](http://jekyllrb.com).
 
-Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
+## Site Generation
+First install jekyll (assuming you have ruby installed):
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
+```
+gem install jekyll
+gem install bundler
+bundle install
+```
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
+Generate the site, and start a server locally:
+```
+bundle exec jekyll serve -w
+```
 
-=========
-For more details, read the [documentation](http://jekyllrb.com/)
+The `-w` option tells jekyll to watch for changes to files and regenerate the site automatically when any content changes.
+
+Point your browser to http://localhost:4000
+
+By default, jekyll will generate the site in a `_site` directory.
+
+
+## Publishing the Website
+In order to publish the website, you must have committer access to the smartDM website.
+
+
+To publish changes, copy the content of the `_site` directory to the smartDM web hosting folder.
+
+## Testing locally
+
+To test the website locally, change `url: http://smartdm.noahlab.com.hk` to `url: http://localhost:4000` in the file _config.yml.
+
