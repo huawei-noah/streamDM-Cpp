@@ -40,7 +40,7 @@ Evaluate the dataset:
 ```
 
 
-## Documentation
+## Methods
 
 smartDM for C++ executes tasks. Tasks can be evaluation tasks as "EvaluatePrequential" or "EvaluateHoldOut" and the parameters needed are a learner, a stream reader, and an evaluator.
 
