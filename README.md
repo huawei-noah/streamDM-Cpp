@@ -1,9 +1,9 @@
-smartDM: C++ Stream Data Mining 
+streamDM-C++: C++ Stream Data Mining 
 =================
 
-smartDM implements extremely fast streaming decision trees in C++ for big data streams. It is a project developed at Huawei Noah's Ark Lab. streamDM is licensed under Apache Software License v2.0.
+streamDM for C++ implements extremely fast streaming decision trees in C++ for big data streams. It is a project developed at Huawei Noah's Ark Lab. streamDM-C++ is licensed under Apache Software License v2.0.
 
-The main advantages of smartDM over other C/C++ data stream libraries are the following:
+The main advantages of streamDM for C++ over other C/C++ data stream libraries are the following:
 
 - Evaluation and learners are separated, not linked together.
 - It contains several methods for learning numeric attributes.
@@ -18,11 +18,11 @@ The main advantages of smartDM over other C/C++ data stream libraries are the fo
 
 Getting Started
 
-First download and build smartDM:
+First download and build streamDM for C++:
 
 ```
-git clone https://github.com/huawei-noah/smartDM.git
-cd smartDM
+git clone https://github.com/huawei-noah/streamDM-cpp.git
+cd streamDM-cpp
 make
 ```
 
@@ -36,13 +36,13 @@ unzip covtypeNorm.arff.zip
 Evaluate the dataset:
 
 ```
-./SmartDM "EvaluatePrequential -l (HoeffdingTree -l NBAdaptive) -r ArffReader -ds covtypeNorm.arff -e (BasicClassificationEvaluator -f 100000)"
+./streamdm-cpp "EvaluatePrequential -l (HoeffdingTree -l NBAdaptive) -r ArffReader -ds covtypeNorm.arff -e (BasicClassificationEvaluator -f 100000)"
 ```
 
 
 ## Methods
 
-smartDM for C++ executes tasks. Tasks can be evaluation tasks as "EvaluatePrequential" or "EvaluateHoldOut" and the parameters needed are a learner, a stream reader, and an evaluator.
+streamDM for C++ executes tasks. Tasks can be evaluation tasks as "EvaluatePrequential" or "EvaluateHoldOut" and the parameters needed are a learner, a stream reader, and an evaluator.
 
 The methods currently implemented are: Naive Bayes, Perceptron, Logistic Regression, Perceptron, Majority Class, Hoeffding Tree, Hoeffding Adaptive Tree, and Bagging.
 

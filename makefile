@@ -52,7 +52,7 @@ code/src/main.cpp
 
 sourcefiles = $(sourcefiles_core) 
 
-targetfile = SmartDM
+targetfile = streamdm-cpp
 
 includepath = -Icode/src/core -Icode/src/learners  -Icode/src \
     -Icode/src/utils -Icode/src/learners/classifiers/Bayes \
