@@ -1,7 +1,7 @@
 smartDM: C++ Stream Data Mining 
 =================
 
-smartDM implements extremely fast streaming decision trees in C++ for big data streams.
+smartDM implements extremely fast streaming decision trees in C++ for big data streams. It is a project developed at Huawei Noah's Ark Lab. streamDM is licensed under Apache Software License v2.0.
 
 The main advantages of smartDM over other C/C++ data stream libraries are the following:
 
