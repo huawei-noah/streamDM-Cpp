@@ -3,10 +3,10 @@
     <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>smartDM C++</title>
+    <title>streamDM for C++</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="">
-    <link rel="canonical" href="http://huawei-noah.github.io/smartDM/">
+    <link rel="canonical" href="http://huawei-noah.github.io/streamDM-Cpp/">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="style.css">
@@ -34,7 +34,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">smartDM </span>C++
+                    <i class="fa fa-play-circle"></i>  <span class="light">streamDM </span>C++
                 </a>
             </div>
 
@@ -73,7 +73,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">smartDM C++</h1>
+                        <h1 class="brand-heading">streamDM for C++</h1>
                         <p class="intro-text">Stream Machine Learning in C++<br></p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -88,8 +88,8 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About smartDM C++</h2>
-             <p>smartDM C++ implements extremely fast streaming decision trees in C++ for big data streams. The main advantages of smartDM over other C/C++ data stream libraries are the following:</p>
+                <h2>About streamDM for C++</h2>
+             <p>streamDM for C++ implements extremely fast streaming decision trees in C++ for big data streams. The main advantages of streamDM for C++ over other C/C++ data stream libraries are the following:</p>
 <p><ul><big>
 <i class="fa fa-play"> </i> Faster than <a href="http://www.cs.washington.edu/dm/vfml/">VFML</a> in C and <a href="http://moa.cms.waikato.ac.nz/">MOA</a> in Java.</br>
 <i class="fa fa-play"> </i> Evaluation and learners are separated, not linked together.</br>
@@ -108,16 +108,16 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Getting Started</h2>
-                <p>First download and build smartDM:</br>
-		<code>git clone https://github.com/huawei-noah/smartDM.git </br>
-		      cd smartDM </br>
+                <p>First download and build streamDM for C++:</br>
+		<code>git clone https://github.com/huawei-noah/streamDM-Cpp.git </br>
+		      cd streamDM-Cpp </br>
 		      make</code><p>
 		<p> Download a dataset:</br>
                 <code> wget "http://downloads.sourceforge.net/project/moa-datastream/Datasets/Classification/covtypeNorm.arff.zip" </br>
 unzip covtypeNorm.arff.zip
                 </code>  </p>
                 <p> Evaluate the dataset:  </br>
-                <code>./SmartDM "EvaluatePrequential -l (HoeffdingTree -l NBAdaptive) -r ArffReader -ds covtypeNorm.arff -e (BasicClassificationEvaluator -f 100000)" 
+                <code>./streamdm-cpp "EvaluatePrequential -l (HoeffdingTree -l NBAdaptive) -r ArffReader -ds covtypeNorm.arff -e (BasicClassificationEvaluator -f 100000)" 
 </code></p>
             </div>
         </div>
@@ -128,7 +128,7 @@ unzip covtypeNorm.arff.zip
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Documentation</h2>
-                <p>smartDM for C++ executes tasks. Tasks can be evaluation tasks as "EvaluatePrequential" or "EvaluateHoldOut" and the parameters needed are a learner, a stream reader, and an evaluator. </p>
+                <p>streamDM for C++ executes tasks. Tasks can be evaluation tasks as "EvaluatePrequential" or "EvaluateHoldOut" and the parameters needed are a learner, a stream reader, and an evaluator. </p>
                 <p> The methods currently implemented are: Naive Bayes, Perceptron, Logistic Regression, Perceptron, Majority Class, Hoeffding Tree, Hoeffding Adaptive Tree, and Bagging. </p>
                 <p> The stream readers currently implemented support Arff, C45, and LibSVM formats. 
             </div>
