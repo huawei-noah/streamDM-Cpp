@@ -30,5 +30,5 @@ To publish changes, copy the content of the `_site` directory to the smartDM web
 
 ## Testing locally
 
-To test the website locally, change `url: http://smartdm.noahlab.com.hk` to `url: http://localhost:4000` in the file _config.yml.
+To test the website locally, change `url: http://huawei-noah.github.io/smartDM/ to `url: http://localhost:4000` in the file _config.yml.
 
