@@ -1,10 +1,11 @@
 streamDM-C++: C++ Stream Data Mining 
 =================
 
-streamDM for C++ implements extremely fast streaming decision trees in C++ for big data streams. It is a project developed at Huawei Noah's Ark Lab. streamDM-C++ is licensed under Apache Software License v2.0.
+streamDM for C++ implements extremely fast streaming decision trees in C++ for big data streams. It is a project developed at Huawei Noah's Ark Lab. streamDM for C++ is licensed under Apache Software License v2.0.
 
 The main advantages of streamDM for C++ over other C/C++ data stream libraries are the following:
 
+- Faster than VFML in C and MOA in Java.
 - Evaluation and learners are separated, not linked together.
 - It contains several methods for learning numeric attributes.
 - It is easy to extend and add new methods.
@@ -21,8 +22,8 @@ Getting Started
 First download and build streamDM for C++:
 
 ```
-git clone https://github.com/huawei-noah/streamDM-cpp.git
-cd streamDM-cpp
+git clone https://github.com/huawei-noah/streamDM-Cpp.git
+cd streamDM-Cpp
 make
 ```
 
