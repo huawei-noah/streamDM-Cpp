@@ -3,16 +3,16 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Getting Started</h2>
-                <p>First download and build smartDM:</br>
-		<code>git clone https://github.com/huawei-noah/smartDM.git </br>
-		      cd smartDM </br>
+                <p>First download and build streamDM C++:</br>
+		<code>git clone https://github.com/huawei-noah/streamDM-Cpp.git </br>
+		      cd streamDM-Cpp </br>
 		      make</code><p>
 		<p> Download a dataset:</br>
                 <code> wget "http://downloads.sourceforge.net/project/moa-datastream/Datasets/Classification/covtypeNorm.arff.zip" </br>
 unzip covtypeNorm.arff.zip
                 </code>  </p>
                 <p> Evaluate the dataset:  </br>
-                <code>./SmartDM "EvaluatePrequential -l (HoeffdingTree -l NBAdaptive) -r ArffReader -ds covtypeNorm.arff -e (BasicClassificationEvaluator -f 100000)" 
+                <code>./streamdm-cpp "EvaluatePrequential -l (HoeffdingTree -l NBAdaptive) -r ArffReader -ds covtypeNorm.arff -e (BasicClassificationEvaluator -f 100000)" 
 </code></p>
             </div>
         </div>
