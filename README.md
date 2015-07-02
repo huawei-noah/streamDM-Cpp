@@ -1,4 +1,4 @@
-smartDM: Sream Data Mining Library for C++.
+smartDM: Sream Data Mining Library in C++.
 =================
 
 smartDM implements extremely fast streaming decision trees in C++ for big data streams.
