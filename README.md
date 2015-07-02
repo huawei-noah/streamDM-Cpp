@@ -45,7 +45,7 @@ Evaluate the dataset:
 
 streamDM for C++ executes tasks. Tasks can be evaluation tasks as "EvaluatePrequential" or "EvaluateHoldOut" and the parameters needed are a learner, a stream reader, and an evaluator.
 
-The methods currently implemented are: Naive Bayes, Perceptron, Logistic Regression, Perceptron, Majority Class, Hoeffding Tree, Hoeffding Adaptive Tree, and Bagging.
+The methods currently implemented are: Naive Bayes, Logistic Regression, Perceptron, Majority Class, Hoeffding Tree, Hoeffding Adaptive Tree, and Bagging.
 
 The stream readers currently implemented support Arff, C45, and LibSVM formats.
 
